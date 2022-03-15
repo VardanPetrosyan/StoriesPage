@@ -1,0 +1,6 @@
+.storie-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 7px;
+    grid-area: c;
+}

@@ -1,0 +1,20 @@
+.redo-icon{
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 0;
+    transform: rotate(87deg);
+}
+
+@media only screen and (max-width: 768px){
+    .refresh-btn-title{
+        display: none;
+    }
+    button.btn.btn-large.reload-button img {
+        margin: auto;
+    }
+    .btn-large {
+        width: max-content;
+        height: max-content;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,18 @@
+.curation button {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000;
+    border: 0;
+    grid-template-rows: 30px;
+    cursor: pointer;
+}
+.curation button:hover svg {
+    fill:black;
+    transition: .2s;
+}
+.curation button:hover svg {
+    fill:blue
+}

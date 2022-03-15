@@ -1,0 +1,71 @@
+.option-btn-box {
+    width: max-content;
+    height: max-content;
+    position: relative;
+}
+button.option-btn-box__option-btn.option-btn.drop-down-btn {
+    padding: 5px 10px 4px;
+    border-radius: 3px;
+    background-color: var(--bg-color-one);
+    border: 0;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    grid-template-columns: auto max-content;
+    grid-gap: 40px;
+    cursor:pointer
+}
+button.option-btn-box__option-btn.option-btn.reset-btn {
+    padding: 12px clamp(5px, calc(15vw - 50%), 69px);
+    border-radius: 3px;
+    background-color: #3971c1;
+    border: 0;
+    cursor: pointer;
+    font-family: Lato,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: var(--bg-color-one)!important;
+}
+.option-btn__selected {
+    font-family: Lato,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292929;
+}
+.option-btn__title{
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #666;
+    text-transform: uppercase;
+}
+.reset-btn .option-btn__title{
+    color: #fff;
+
+}
+
+@media only screen and (max-width: 520px){
+    .option-btn-box {
+        width: 100%;
+    }
+    button.option-btn-box__option-btn.option-btn.drop-down-btn {
+        justify-content: space-between;
+        width: 100%;
+    }
+    button.option-btn-box__option-btn.option-btn.reset-btn {
+        width: 100%;
+    }
+}

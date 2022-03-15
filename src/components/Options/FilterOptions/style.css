@@ -1,0 +1,19 @@
+.filters__filter-options.filter-options {
+    padding: 20px 24px;
+    border-radius: 3px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,max-content);
+    grid-gap: 5px;
+}
+
+@media only screen and (max-width: 768px){
+    .filters__filter-options.filter-options {
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 520px){
+    .filters__filter-options.filter-options{
+        grid-template-columns: 1fr!important;
+    }
+}

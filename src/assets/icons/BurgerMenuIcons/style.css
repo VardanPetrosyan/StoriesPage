@@ -1,0 +1,23 @@
+.burger {
+    display: none;
+}
+
+@media (max-width: 580px) {
+    .burger {
+        width: 2rem;
+        height: 2rem;
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column wrap;
+    }
+
+    .burger div {
+        width: 2rem;
+        height: 0.25rem;
+        background-color: white;
+        border-radius: 10px;
+    }
+}

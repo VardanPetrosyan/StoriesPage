@@ -1,0 +1,36 @@
+.btn {
+    border-radius: 3px;
+    padding: 8px 10px;
+    border: solid 1px var(--border-color-one);
+	background-color: var(--bg-color-two);
+    transition: .3s;
+    cursor: pointer;
+    font-family: Lato;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: var(--bg-color-three);
+}
+
+.btn-large {
+	width: 100px;
+	height: 40px;
+	font-size: 13px;
+}
+
+.btn-medium {
+	font-size: 11px;
+}
+
+.btn-small {
+	font-size: 9px;
+}

@@ -1,0 +1,11 @@
+.curations {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+    justify-content: flex-end;
+    grid-gap: 23px;
+    padding: 0 20px 0 0;
+    border-radius: 3px;
+    border: solid 1px var(--border-color-two);
+    background-color: var(--bg-color-one);
+}

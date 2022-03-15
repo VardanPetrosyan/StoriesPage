@@ -1,0 +1,19 @@
+.filter-icon{
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 0;
+}
+
+@media only screen and (max-width: 520px){
+    .filter-btn-title{
+        display: none;
+    }
+    button.btn.btn-large.filter-button img {
+        margin: auto;
+    }
+    .btn-large {
+        width: max-content;
+        height: max-content;
+        font-size: 13px;
+    }
+}

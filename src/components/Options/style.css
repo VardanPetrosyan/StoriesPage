@@ -1,0 +1,27 @@
+.options {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    grid-gap: 10px;
+    grid-area: b;
+}
+.options__btn-box{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 10px;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px){
+    .options__btn-box {
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .options__btn-box {
+        justify-content: flex-start;
+    }
+}
